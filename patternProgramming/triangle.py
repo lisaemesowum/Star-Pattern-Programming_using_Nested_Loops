@@ -18,3 +18,16 @@ for a in range(rows):
     for b in range(a + 1):
         print("*  ", end="")
     print()
+    
+    # ---------- using string method
+print()   
+
+patterns = [
+        " * ",
+        " * * ",
+        " * * * " ,
+        " * * * * ",
+        " * * * * * "
+    ]
+for st in patterns:
+        print(st)
